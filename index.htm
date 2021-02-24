@@ -13,8 +13,9 @@
     
     <body>
         <nav class="navbar navbar-dark bg-primary">
-       <nav class="navbar navbar-light" style="background-color: #e3f2fd;">
+          <nav class="navbar navbar-dark bg-dark">
             <!-- Navbar content -->
+            <!--   <nav class="navbar navbar-light" style="background-color: #5d8fb3;"> -->
           <div class="container-fluid">
             <a class="navbar-brand" href="#">MENU</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
@@ -33,13 +34,17 @@
                 </li>
               </ul>
               <span class="navbar-text">
-                Navbar text with an inline element
+                <form class="d-flex">
+                  <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                  <button class="btn btn-outline-success" type="submit">Search</button>
+                </form>
               </span>
             </div>
           </div>
         </nav>
       </nav>
     </nav>
+  </nav>
     
     <div class="container">
 
@@ -79,32 +84,12 @@
         <div id =  "error_message"></div>
 
 <div id= "myform" onsubmit = "return validation()">
-<label for = "#fullname">fullname</label><br>
-<input type = "text" name = "fullname" placeholder = "fullname"/><br>
- </div>
 
-<div class = "form-group">
-<label for = "#state Of Origin">state Of Origin</label><br>
-<input type = "#state Of Origin" name = "state Of Origin" placeholder = "state Of Origin"/><br>
-</div>
-
-
-<div class = "form-group">
-<label for = "#Date Of Birth">Date Of Birth</label><br>
-<input type = "text" name = "Date Of Birth" placeholder = "Date Of Birth"/><br>
-</div>
-
-<div class = "form-group">
-<lable for = "#Residential Adress"> Residential Adress</lable><br>
-<input type = "text" name =" Residential Adress" placeholder = " Residential Adress"/><br>
-</div>
 
 <div class = "form-group">
 <label for = "#Leave a message">Leave a message</label><br>
 <textarea  id = "message" placeholder = "Message"/></textarea><br>
 </div>
-
-
 
 <div class = "form-group">
 <label for = "#Phone">Phone</label><br>
