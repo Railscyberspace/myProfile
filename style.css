@@ -59,4 +59,6 @@ Img {
   width: 300px;
   height: 400px;
   margin: 0px;
+
+  border-radius: 50%;
 }
