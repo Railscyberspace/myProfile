@@ -45,7 +45,7 @@ img {
   border-radius: 60%;
 }
 
-.avatar {
+.rounded mx-auto d-block {
   vertical-align: middle;
   width: 80px;
   height: 80px;
