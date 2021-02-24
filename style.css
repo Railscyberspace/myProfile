@@ -39,7 +39,8 @@ form.form-group input {
   font-size: 80px;
   color: white;
   text-align: top;
-} /*
+}
+
 image {
   position: top left;
   size: 20px;
@@ -58,7 +59,6 @@ Img {
   width: 300px;
   height: 400px;
   margin: 0px;
-*/
-img {
+
   border-radius: 50%;
 }
